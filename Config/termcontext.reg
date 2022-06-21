@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\windowsterminal]
+@="Windows Terminal Here"
+"Icon"="C:\\WSB\\Assets\\term.ico\\"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\windowsterminal\command]
+@="\"C:\\WSB\\Apps\\WindowsTerminal\\wt.exe\""

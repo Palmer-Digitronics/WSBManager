@@ -1,0 +1,1 @@
+cmd /k C:\Tools\SysInternals\streams.exe -s C:\Users\WDAGUtilityAccount\Desktop\Data

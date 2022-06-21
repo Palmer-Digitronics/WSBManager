@@ -1,0 +1,44 @@
+<Configuration>
+<vGPU>Disable</vGPU>
+<Networking>Enable</Networking>
+<MappedFolders>
+   <MappedFolder>
+     <HostFolder>C:\Sandbox\Startup</HostFolder>
+	 <SandboxFolder>C:\WSB\Startup</SandboxFolder>
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+     <HostFolder>C:\Sandbox\Config</HostFolder>
+	 <SandboxFolder>C:\WSB\Config</SandboxFolder>
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+     <HostFolder>C:\Sandbox\Scripts</HostFolder>
+	 <SandboxFolder>C:\WSB\Scripts</SandboxFolder>
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+     <HostFolder>C:\Sandbox\Apps</HostFolder>
+	 <SandboxFolder>C:\WSB\Apps</SandboxFolder>
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+     <HostFolder>C:\Sandbox\Assets</HostFolder>
+	 <SandboxFolder>C:\WSB\Assets</SandboxFolder>
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+     <HostFolder>C:\Sandbox\Data</HostFolder>
+	 <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+</MappedFolders>
+<LogonCommand>
+   <Command>C:\WSB\Startup\Startup_Online.bat</Command>
+</LogonCommand>
+<AudioInput>Disable</AudioInput>
+<VideoInput>Disable</VideoInput>
+<ProtectedClient>Enable</ProtectedClient>
+<PrinterRedirection>Disable</PrinterRedirection>
+<ClipboardRedirection>Disable</ClipboardRedirection>
+<MemoryInMB>4096</MemoryInMB>
+</Configuration>

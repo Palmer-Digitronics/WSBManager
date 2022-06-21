@@ -1,0 +1,3 @@
+BlockInput, Off
+
+return

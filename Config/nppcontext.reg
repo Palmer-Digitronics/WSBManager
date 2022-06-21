@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\nppopenfolder]
+@="Open as workspace in Notepad++"
+"Icon"="C:\\WSB\\Assets\\npp.ico\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\nppopenfolder\command]
+@="cmd /S /C \"C:\\WSB\\Config\\open_folder_as_workspace.cmd \"%1\"\""

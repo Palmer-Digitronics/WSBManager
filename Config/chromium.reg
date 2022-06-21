@@ -1,0 +1,54 @@
+Windows Registry Editor Version 5.00 
+
+[HKEY_CURRENT_USER\Software\RegisteredApplications]
+"Chromium"="Software\Clients\StartMenuInternet\Chromium\Capabilities"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium]
+@="Chromium"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium\Capabilities]
+"ApplicationDescription"="Chromium Browser"
+"ApplicationIcon"="C:\\Program Files\\Chromium\\chrome-win\\chrome.exe,0"
+"ApplicationName"="Chromium"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium\Capabilities\FileAssociations]
+".htm"="ChromiumHTM"
+".html"="ChromiumHTM"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium\Capabilities\Startmenu]
+"StartMenuInternet"="Chromium"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium\Capabilities\URLAssociations]
+"http"="ChromiumHTM"
+"https"="ChromiumHTM"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium\DefaultIcon]
+@="C:\\Program Files\\Chromium\\chrome-win\\chrome.exe,0"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium\shell]
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium\shell\open]
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Chromium\shell\open\command]
+@="\"C:\\Program Files\\Chromium\\chrome-win\\chrome.exe\""
+
+[HKEY_CURRENT_USER\Software\Classes\ChromiumHTM]
+@="ChromiumHandler"
+"AppUserModelId"="Chromium"
+
+[HKEY_CURRENT_USER\Software\Classes\ChromiumHTM\Application]
+"AppUserModelId"="Chromium"
+"ApplicationIcon"="C:\\WSB\\Assets\\Chromium.ico,0"
+"ApplicationName"="Chromium"
+"ApplicationDescription"="Chromium Browser"
+"ApplicationCompany"="The Chromium Projects"
+
+[HKEY_CURRENT_USER\Software\Classes\ChromiumHTM\DefaultIcon]
+@="C:\\WSB\\Assets\\Chromium.ico,0"
+
+[HKEY_CURRENT_USER\Software\Classes\ChromiumHTM\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\ChromiumHTM\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\ChromiumHTM\shell\open\command]
+@="\"C:\\Program Files\\Chromium\\chrome-win\\chrome.exe\" \"%1\""

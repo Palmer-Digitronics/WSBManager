@@ -1,0 +1,20 @@
+<LayoutModificationTemplate xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
+  <LayoutOptions StartTileGroupCellWidth="6" StartTileGroupsColumnCount="1" />
+  <DefaultLayoutOverride>
+    <StartLayoutCollection>
+      <defaultlayout:StartLayout GroupCellWidth="6">
+        <start:Group Name="">
+          <start:DesktopApplicationTile Size="1x1" Column="1" Row="3" DesktopApplicationID="{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\PowerShell_ISE.exe" />
+          <start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationID="C:\Users\WDAGUtilityAccount\AppData\Local\SumatraPDF\SumatraPDF.exe" />
+          <start:DesktopApplicationTile Size="1x1" Column="0" Row="4" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\AutoHotkey\AutoHotkey.exe" />
+          <start:DesktopApplicationTile Size="1x1" Column="1" Row="4" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\AutoHotkey\WindowSpy.ahk" />
+          <start:DesktopApplicationTile Size="2x1" Column="0" Row="0" DesktopApplicationID="C:\Users\WDAGUtilityAccount\Desktop\Data" />
+          <start:DesktopApplicationTile Size="1x1" Column="0" Row="3" DesktopApplicationID="C:\WSB\Apps\WindowsTerminal\WindowsTerminal.exe" />
+          <start:DesktopApplicationTile Size="1x1" Column="0" Row="1" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\7-Zip\7zFM.exe" />
+          <start:DesktopApplicationTile Size="1x1" Column="1" Row="1" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\Notepad++\notepad++.exe" />
+          <start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationID="{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\Kernel EML Viewer\Kernel EML Viewer.exe" />
+        </start:Group>
+      </defaultlayout:StartLayout>
+    </StartLayoutCollection>
+  </DefaultLayoutOverride>
+</LayoutModificationTemplate>
