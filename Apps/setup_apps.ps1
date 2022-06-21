@@ -49,11 +49,11 @@ Invoke-WebRequest -UserAgent "Wget" -Outfile C:\Sandbox\Apps\QPDF.zip -Uri https
 Write-Output "Downloading GoWitness"
 Invoke-WebRequest -UserAgent "Wget" -Outfile C:\Sandbox\Apps\GoWitness.exe -Uri https://github.com/sensepost/gowitness/releases/download/2.3.6/gowitness-2.3.6-windows-amd64.exe
 
-Write-Output "Downloading LibreOfficer... This may take a few minutes"
+Write-Output "Downloading LibreOffice... This may a while..."
 Invoke-WebRequest -UserAgent "Wget" -Outfile C:\Sandbox\Apps\libreoffice.msi -Uri https://download.documentfoundation.org/libreoffice/stable/7.3.4/win/x86_64/LibreOffice_7.3.4_Win_x64.msi
 
 Write-Output "Downloading OpenJDK 17"
 Invoke-WebRequest -UserAgent "Wget" -Outfile C:\Sandbox\Apps\openjdk.msi -Uri https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.2_8.msi
 
-Write-Output "Downloading Ghidra"
-Invoke-WebRequest -UserAgent "Wget" -Outfile C:\Sandbox\Ghidra.zip -Uri https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.1.2_build/ghidra_10.1.2_PUBLIC_20220125.zip
+Write-Output "Downloading Ghidra... This may take some time"
+Invoke-WebRequest -UserAgent "Wget" -Outfile C:\Sandbox\Apps\Ghidra.zip -Uri https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.1.2_build/ghidra_10.1.2_PUBLIC_20220125.zip
