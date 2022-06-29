@@ -26,7 +26,7 @@ Write-Output "Downloading Regshot"
 Invoke-WebRequest -UserAgent "Wget" -OutFile "C:\Sandbox\Apps\Regshot.zip" -Uri "https://github.com/Seabreg/Regshot/archive/refs/heads/master.zip"
 
 Write-Output "Downloading Wireshark"
-Invoke-WebRequest -UserAgent "Wget" -OutFile C:\Sandbox\Apps\Wireshark.exe -Uri "https://2.na.dl.wireshark.org/win64/Wireshark-win64-3.6.5.exe"
+Invoke-WebRequest -UserAgent "Wget" -OutFile C:\Sandbox\Apps\Wireshark.exe -Uri "https://2.na.dl.wireshark.org/win64/Wireshark-win64-3.6.6.exe"
 
 Write-Output "Downloading John the Ripper Bleeding Jumbo"
 Invoke-WebRequest -UserAgent "Wget" -OutFile "C:\Sandbox\Apps\JtR.zip" -Uri "https://github.com/openwall/john/archive/refs/heads/bleeding-jumbo.zip"
