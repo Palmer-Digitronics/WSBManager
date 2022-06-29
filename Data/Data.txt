@@ -1,0 +1,1 @@
+This folder is for placing files to be interacted with inside the sandbox environment
