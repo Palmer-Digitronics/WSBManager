@@ -23,7 +23,7 @@ echo Process Hacker Installed >> %UserProfile%\Documents\StartupChanges.txt
 start "" "C:\Program Files\7-Zip\7z.exe" e "C:\WSB\Apps\CyberChef.zip" -o"C:\Tools\CyberChef" -y >nul
 echo CyberChef Added to Tools >> %UserProfile%\Documents\StartupChanges.txt
 
-start /wait "" "C:\Program Files\7-Zip\7z.exe" e "C:\WSB\Apps\networkminer.zip" -o"C:\Tools\" -y >nul
+start /wait "" "C:\Program Files\7-Zip\7z.exe" e "C:\WSB\Apps\networkminer.zip" -o"C:\Tools\NetworkMiner\" -y >nul
 echo NetworkMiner Added to Tools >> %UserProfile%\Documents\StartupChanges.txt
 
 start "" "C:\Program Files\7-zip\7z.exe" e "C:\WSB\Apps\QPDF.zip" -o"C:\Tools\QPDF\" -y >nul
@@ -32,7 +32,7 @@ echo QPDF Added to Tools >> %UserProfile%\Documents\StartupChanges.txt
 msiexec /i "C:\WSB\Apps\openjdk.msi" /qn >nul
 echo OpenJDK17 installed >> %UserProfile%\Documents\StartupChanges.txt
 
-start /wait "" "C:\Program Files\7-zip\7z.exe" e "C:\WSB\Apps\Ghidra.zip" -o"C:\Tools\" >nul
+start /wait "" "C:\Program Files\7-zip\7z.exe" x "C:\WSB\Apps\Ghidra.zip" -o"C:\Tools\" -y >nul
 echo Ghidra Added to Tools >> %UserProfile%\Documents\StartupChanges.txt
 
 echo Done

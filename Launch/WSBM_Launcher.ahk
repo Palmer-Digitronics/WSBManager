@@ -26,7 +26,7 @@ Gui Add, DropDownList, vVar_RAM, 1GB|2GB|4GB||8GB|16GB
 Gui Add, Text,,
 Gui Add, Button,, Launch    ;...to here is for the second column options
 
-Gui, Show,, WSB Launcher       ; Show the GUI created above
+Gui, Show,, WSBM Launcher ; Show the GUI created above
 
 Return
 
