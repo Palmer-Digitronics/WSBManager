@@ -10,7 +10,7 @@ echo Regshot Added to Tools>> %UserProfile%\Documents\StartupChanges.txt
 start /wait C:\WSB\Apps\Wireshark.exe /S /desktopicon=yes /quicklaunchicon=yes >nul
 echo Wireshark Installed >> %UserProfile%\StartupChanges.txt
 
-start /wait "" "C:\Program Files\7-zip\7z.exe" e "C:\WSB\Apps\JtR.zip" -o"C:\Tools\John\" -y >nul
+start /wait "" "C:\Program Files\7-zip\7z.exe" x "C:\WSB\Apps\JtR.7z" -o"C:\Tools\John\" -y >nul
 echo John the Ripper Added to Tools >> %UserProfile%\Documents\StartupChanges.txt
 
 start /wait "" "C:\Program Files\7-zip\7z.exe" e "C:\WSB\Apps\Johnny.zip" -o"C:\Temp\Johnny" -y >nul

@@ -29,7 +29,7 @@ Write-Output "Downloading Wireshark"
 Invoke-WebRequest -UserAgent "Wget" -OutFile C:\Sandbox\Apps\Wireshark.exe -Uri "https://2.na.dl.wireshark.org/win64/Wireshark-win64-3.6.6.exe"
 
 Write-Output "Downloading John the Ripper Bleeding Jumbo"
-Invoke-WebRequest -UserAgent "Wget" -OutFile "C:\Sandbox\Apps\JtR.zip" -Uri "https://github.com/openwall/john/archive/refs/heads/bleeding-jumbo.zip"
+Invoke-WebRequest -UserAgent "Wget" -OutFile "C:\Sandbox\Apps\JtR.7z" -Uri "https://www.openwall.com/john/k/john-1.9.0-jumbo-1-win64.7z"
 
 Write-Output "Downloading Johnny"
 Invoke-WebRequest -UserAgent "Wget" -Outfile C:\Sandbox\Apps\Johnny.zip -Uri https://openwall.info/wiki/_media/john/johnny/johnny_2.2_win.zip
