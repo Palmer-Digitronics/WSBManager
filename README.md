@@ -38,39 +38,47 @@
  ### Standard
  
   **AutoHotkey**
+  
   AutoHotkey is a free, open source macro-creation and automation software utility that allows users to automate repetitive tasks.
   This is used for automation of several tasks on startup
   https://github.com/Lexikos/AutoHotkey_L
   
   **Notepad++**
+  
   Notepad++ is a text and source code editor for use with Microsoft Windows.
   WSBM replaces notepad.exe inside the VM with Notepad++, as such any file that would by default open in notepad opens instead in NPP. In fact, Windows Sandbox is no longer able to open notepad, and can only open NPP.
   https://github.com/notepad-plus-plus/notepad-plus-plus
   
   **7-Zip**
+  
   7-Zip is a file archiver with a high compression ratio.
   7-Zip is used to manage the archives that contain most of the applications used by WSBM, as well as for file/archive analysis after the VM is configured and running
   https://sourceforge.net/projects/sevenzip/
   
   **SumatraPDF**
+  
   Sumatra PDF is a free and open-source document viewer that supports many document formats 
   https://github.com/sumatrapdfreader/sumatrapdf
   
   **IconExtractor**
+  
   Icon Extractor is a small, portable executable that allows you to extract the icon from any file or folder on your system.
   https://sourceforge.net/projects/icon-extractor/
   
   **SysInternals Suite**
+  
   Sysinternals Suite is a bundle of the Sysinternals utilities - a set of advanced system utilities and technical information by Mark Russinovich
   Streams.exe from the SysInternals suite is used to check files in the data for alternate data streams. See 'Check_Data_for_ADS.cmd' on the desktop
   https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
   https://github.com/MicrosoftDocs/sysinternals
   
   **MBox Viewer**
+  
   A simple viewer to view mbox files such as thunderbird archives, google mail archives or simple eml files.
   https://github.com/eneam/mboxviewer
   
   **Brave Browser**
+  
   The new Brave browser blocks ads and trackers that slow you down and invade your privacy. A solid FOSS chrome alternative
   Brave is only included in the standard package when networking is enabled
   https://github.com/brave/brave-browser
@@ -79,49 +87,60 @@
   Forensics includes everything in the Standard package, and additionally includes:
   
   **RegShot**
+  
   Regshot is an open-source registry compare utility that allows you to quickly take a snapshot of your registry and then compare it with a second one. In addition,  you can also specify folders (with subfolders) to be
   scanned for changes as well.
   https://sourceforge.net/projects/regshot/
   
   **Wireshark**
+  
   Wireshark is a free and open-source packet analyzer.
   https://github.com/wireshark/wireshark
   
   **Network Miner**
+  
   NetworkMiner is an open source Network Forensic Analysis Tool (NFAT) for Windows.
   https://www.netresec.com/?page=NetworkMiner
   https://www.netresec.com/?page=NetworkMinerSourceCode
   
   **John the Ripper**
+  
   John the Ripper is an Open Source password security auditing and password recovery tool.
   https://github.com/openwall/john
   
   **Johnny**
+  
   Johnny is the cross-platform Open Source GUI frontend for the popular password cracker John the Ripper.
   https://github.com/openwall/johnny
   
   **Process Hacker**
+  
   Process Hacker is a free and open source process viewer. This multi-purpose tool will assist you with debugging, malware detection and system monitoring.
   https://sourceforge.net/projects/processhacker/
   
   **CyberChef**
+  
   The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis.
   https://github.com/gchq/cyberchef
   
   **QPDF**
+  
   QPDF is a command-line tool and C++ library that performs content-preserving transformations on PDF files.
   https://github.com/qpdf/qpdf
   
   **OpenJDK17**
+  
   JDK 17 is the open-source reference implementation of version 17 of the Java SE Platform, as specified by by JSR 390 in the Java Community Process.
   This is required for Ghidra (see below)
   https://github.com/openjdk/jdk17
   
   **Ghidra**
+  
   Ghidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate.
   https://github.com/NationalSecurityAgency/ghidra
   
   **GoWitness**
+  
   gowitness is a website screenshot utility written in Golang, that uses Chrome Headless to generate screenshots of web interfaces using the command line, with a handy report viewer to process results.
   GoWitness is only included in the forensics package when networking is enabled.
   https://github.com/sensepost/gowitness
@@ -130,6 +149,7 @@
   Full includes everything in the Standard and Forensics package, except GoWitness is *still* only installed if networking is enabled. Full additionally includes:
   
   **LibreOffice**
+  
   LibreOffice is a free and powerful office suite, and a successor to OpenOffice.
   The Full package exists mostly because LibreOffice takes an annoying amount of time to install, and it is the only package included in Full.
   https://github.com/LibreOffice/core
