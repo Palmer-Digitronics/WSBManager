@@ -2,8 +2,6 @@
 
 echo Installing Applications... Please Wait
 
-echo Windows Terminal added directly to drive >> %UserProfile%\Documents\StartupChanges.txt
-
 start /wait C:\WSB\Apps\npp.exe /S
 echo Installed Notepad++ >> %UserProfile%\Documents\StartupChanges.txt
 
