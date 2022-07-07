@@ -17,8 +17,7 @@
  git clone https://github.com/Palmer-Digitronics/WSBManager C:\Sandbox
  ```
  - For now, the repo MUST be in the root of C:\ for the setup script to work correctly... This will be addressed soon (well, sooner or later)
- - After the repo is in C:\Sandbox, navigate to Sandbox\Apps and run setup_apps.ps1. This will download all required applications, formatted
- for the configuration scripts
+ - After the repo is in C:\Sandbox, start by running Setup.ahk. This will download all required applications, and write configuration data to WSBM.ini for use elsewhere
  - Windows sandbox offers a large number of customizable options for the VM - most of these are not allowed by WSBM. WSBM assigns the VM to
  act as an isolated client, and any option that requires turning isolated client off is not available.
  - That said, I do not recommend WSBM for live malware analysis. However, when you have a file that you are unsure of and would quickly like to
