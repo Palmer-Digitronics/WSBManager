@@ -175,7 +175,7 @@ IniWrite, Ghidra.zip, WSBM.ini, Available Applications, Ghidra
 psscript =
 (
 Write-Output 'Downloading Regshot... Total size approximately 292000 bytes'
-Invoke-WebRequest -Outfile 'C:\Sandbox\Apps\Regshot.zip' -Uri 'https://github.com/Seabreg/Regshot/archive/refs/heads/master.zip
+Invoke-WebRequest -Outfile 'C:\Sandbox\Apps\Regshot.zip' -Uri 'https://github.com/Seabreg/Regshot/archive/refs/heads/master.zip'
 )
 RunWait, powershell -Command &{%psscript%}
 IniWrite, Regshot.zip, WSBM.ini, Available Applications, Regshot
@@ -183,7 +183,7 @@ IniWrite, Regshot.zip, WSBM.ini, Available Applications, Regshot
 psscript =
 (
 Write-Output 'Downloading MBox Viewer... Total size approximately 43556000 bytes'
-Invoke-WebRequest -UserAgent 'Wget' -OutFile 'C:\Sandbox\Apps\mbox.zip' -MaximumRedirection 2 -Uri 'https://sourceforge.net/projects/mbox-viewer/files/latest/download
+Invoke-WebRequest -UserAgent 'Wget' -OutFile 'C:\Sandbox\Apps\mbox.zip' -MaximumRedirection 2 -Uri 'https://sourceforge.net/projects/mbox-viewer/files/latest/download'
 )
 RunWait, powershell -Command &{%psscript%}
 IniWrite, mbox.zip, WSBM.ini, Available Applications, MBox Viewer
@@ -191,7 +191,7 @@ IniWrite, mbox.zip, WSBM.ini, Available Applications, MBox Viewer
 psscript =
 (
 Write-Output 'Downloading MBox Viewer... Total size approximately 794000 bytes'
-Invoke-WebRequest -UserAgent 'Wget' -OutFile 'C:\Sandbox\Apps\IconExtractor.exe' -MaximumRedirection 2 -Uri 'https://sourceforge.net/projects/icon-extractor/files/latest/download
+Invoke-WebRequest -UserAgent 'Wget' -OutFile 'C:\Sandbox\Apps\IconExtractor.exe' -MaximumRedirection 2 -Uri 'https://sourceforge.net/projects/icon-extractor/files/latest/download'
 )
 RunWait, powershell -Command &{%psscript%}
 IniWrite, IconExtractor.exe, WSBM.ini, Available Applications, Icon Extractor
