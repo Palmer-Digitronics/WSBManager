@@ -4,9 +4,14 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 
-AppDir = %A_ScriptDir%\Apps\
 IniWrite, %A_ScriptDir%, WSBM.ini, Host Machine, Install Dir
 
+AppDir = %A_ScriptDir%\Apps\
+
+WSBMContext = %A_AppData%\Microsoft\Windows\SendTo\WSBM*.lnk
+if not (FileExist(WSBMContext))
+    FileCreateShortcut, %A_ScriptDir%\Data\, %A_AppData%\Microsoft\Windows\SendTo\WSBM Data Folder.lnk
+    
 objWMIService := ComObjGet("winmgmts:{impersonationLevel=impersonate}!\\" A_ComputerName "\root\cimv2")
 For objOperatingSystem in objWMIService.ExecQuery("Select * from Win32_OperatingSystem")
    OS_Ver := objOperatingSystem.Caption
