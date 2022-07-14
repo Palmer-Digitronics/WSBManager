@@ -12,12 +12,14 @@ WSBMContext = %A_AppData%\Microsoft\Windows\SendTo\WSBM*.lnk
 if not (FileExist(WSBMContext))
     FileCreateShortcut, %A_ScriptDir%\Data\, %A_AppData%\Microsoft\Windows\SendTo\WSBM Data Folder.lnk
 IniWrite, SendTo, WSBM.ini, Host Machine, Context Menu
-    
+
 objWMIService := ComObjGet("winmgmts:{impersonationLevel=impersonate}!\\" A_ComputerName "\root\cimv2")
 For objOperatingSystem in objWMIService.ExecQuery("Select * from Win32_OperatingSystem")
    OS_Ver := objOperatingSystem.Caption
-   
-IniWrite, %OS_Ver%, WSBM.ini, Host Machine, OS
+RegExMatch(OS_Ver, "\d\d", OS_Num)
+OS_Clean := Win%OS_Num%
+
+IniWrite, %OS_Clean%, WSBM.ini, Host Machine, OS
 
 url = ""
 save = ""
