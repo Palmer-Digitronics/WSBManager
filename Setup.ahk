@@ -17,7 +17,7 @@ objWMIService := ComObjGet("winmgmts:{impersonationLevel=impersonate}!\\" A_Comp
 For objOperatingSystem in objWMIService.ExecQuery("Select * from Win32_OperatingSystem")
    OS_Ver := objOperatingSystem.Caption
 RegExMatch(OS_Ver, "\d\d", OS_Num)
-OS_Clean = "Win"%OS_Num%
+OS_Clean = Win%OS_Num%
 
 IniWrite, %OS_Clean%, WSBM.ini, Host Machine, OS
 
@@ -79,7 +79,7 @@ FileDelete, %save%
 ProgressGui()
 IniWrite, AutoHotkey.exe, WSBM.ini, Available Applications, AutoHotkey
 
-url = https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.1/npp.8.4.1.Installer.x64.exe
+url = https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.3/npp.8.4.3.Installer.x64.exe
 save = %AppDir%npp.exe
 FileDelete, %save%
 ProgressGui()
@@ -97,7 +97,7 @@ FileDelete, %save%
 ProgressGui()
 IniWrite, SumatraPDF.exe, WSBM.ini, Available Applications, SumatraPDF
 
-url = https://github.com/brave/brave-browser/releases/download/v1.38.117/BraveBrowserStandaloneSetup.exe
+url = https://github.com/brave/brave-browser/releases/download/v1.41.96/BraveBrowserStandaloneSetup.exe
 save = %AppDir%Brave.exe
 FileDelete, %save%
 ProgressGui()
