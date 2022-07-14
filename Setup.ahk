@@ -17,7 +17,7 @@ objWMIService := ComObjGet("winmgmts:{impersonationLevel=impersonate}!\\" A_Comp
 For objOperatingSystem in objWMIService.ExecQuery("Select * from Win32_OperatingSystem")
    OS_Ver := objOperatingSystem.Caption
 RegExMatch(OS_Ver, "\d\d", OS_Num)
-OS_Clean := Win%OS_Num%
+OS_Clean = "Win"%OS_Num%
 
 IniWrite, %OS_Clean%, WSBM.ini, Host Machine, OS
 
@@ -193,7 +193,7 @@ IniWrite, mbox.zip, WSBM.ini, Available Applications, MBox Viewer
 
 psscript =
 (
-Write-Output 'Downloading MBox Viewer... Total size approximately 794000 bytes'
+Write-Output 'Downloading Icon Extractor... Total size approximately 794000 bytes'
 Invoke-WebRequest -UserAgent 'Wget' -OutFile 'C:\Sandbox\Apps\IconExtractor.exe' -MaximumRedirection 2 -Uri 'https://sourceforge.net/projects/icon-extractor/files/latest/download'
 )
 RunWait, powershell -Command &{%psscript%}
