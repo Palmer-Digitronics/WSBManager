@@ -110,32 +110,32 @@ Lnch_Scrpt =
     <Networking>%Lnch_Network%</Networking>
     <MappedFolders>
         <MappedFolder>
-            <HostFolder>C:\Sandbox\Startup</HostFolder>
+            <HostFolder>%A_ScriptDir%\..\Startup</HostFolder>
             <SandboxFolder>C:\WSB\Startup</SandboxFolder>
             <ReadOnly>true</ReadOnly>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>C:\Sandbox\Config</HostFolder>
+            <HostFolder>%A_ScriptDir%\..\Config</HostFolder>
             <SandboxFolder>C:\WSB\Config</SandboxFolder>
             <ReadOnly>true</ReadOnly>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>C:\Sandbox\Scripts</HostFolder>
+            <HostFolder>%A_ScriptDir%\..\Scripts</HostFolder>
             <SandboxFolder>C:\WSB\Scripts</SandboxFolder>
             <ReadOnly>true</ReadOnly>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>C:\Sandbox\Apps</HostFolder>
+            <HostFolder>%A_ScriptDir%\..\Apps</HostFolder>
             <SandboxFolder>C:\WSB\Apps</SandboxFolder>
             <ReadOnly>true</ReadOnly>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>C:\Sandbox\Assets</HostFolder>
+            <HostFolder>%A_ScriptDir%\..\Assets</HostFolder>
             <SandboxFolder>C:\WSB\Assets</SandboxFolder>
             <ReadOnly>true</ReadOnly>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>C:\Sandbox\Data</HostFolder>
+            <HostFolder>%A_ScriptDir%\..\Data</HostFolder>
             <ReadOnly>%Lnch_Write%</ReadOnly>
         </MappedFolder>
     </MappedFolders>
